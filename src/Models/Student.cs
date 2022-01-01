@@ -1,3 +1,5 @@
+using HogwartsHouses.Models.Types;
+
 namespace HogwartsHouses.Models
 {
     [System.Serializable]
@@ -5,7 +7,10 @@ namespace HogwartsHouses.Models
     {
         public int Id { get; set; }
 
-        
+        public string Name { get; set; }
+
+        public PetType Pet { get; set; }
+
 
 
     }

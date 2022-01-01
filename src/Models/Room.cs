@@ -7,11 +7,9 @@ namespace HogwartsHouses.Models
     {
         public int ID { get; set; }
 
-        public bool IsOcupied { get; set; }
+        public bool Available { get; set; }
 
-
-
-        public List<Student> Roommates { get; set; }
+        public List<Student> Students { get; set; }
 
 
 
