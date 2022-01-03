@@ -11,7 +11,12 @@ namespace HogwartsHouses.Models
 
         public List<Student> Students { get; set; }
 
-
+        public Room(int id, bool available,List<Student> studets)
+        {
+            ID = id;
+            Available = available;
+            Students = studets;
+        }
 
     }
 }

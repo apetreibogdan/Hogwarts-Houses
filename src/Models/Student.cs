@@ -12,6 +12,15 @@ namespace HogwartsHouses.Models
         public PetType Pet { get; set; }
 
 
+        public Student(int id, string name , PetType petType)
+        {
+            Id=id;
+            Name=name;
+            Pet=petType;
+        }
+
+     
+
 
     }
 }

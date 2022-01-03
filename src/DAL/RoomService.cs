@@ -1,4 +1,5 @@
 using HogwartsHouses.Models;
+using System.Collections.Generic;
 
 namespace HogwartsHouses.DAL
 {
@@ -10,5 +11,6 @@ namespace HogwartsHouses.DAL
         {
             _repository = repository;
         }
+        public HashSet<Room> GetAllRooms()=>_repository.GetAllRooms();
     }
 }
