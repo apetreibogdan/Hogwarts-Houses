@@ -1,12 +1,12 @@
 ﻿using HogwartsHouses.DAL;
 using HogwartsHouses.Models;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
+
 namespace HogwartsHouses.Controllers
 {
-    [Route("/")]
+    [Route("/rooms")]
     [ApiController]
     public class RoomController : ControllerBase
     {
@@ -24,5 +24,14 @@ namespace HogwartsHouses.Controllers
             return roomsList;
             
         }
+
+    [HttpPost]
+    public void AddRoom([FromBody]Room room)
+        {
+            _roomService.AddRoom(room);
+
+        }
     }
+   
+    
 }

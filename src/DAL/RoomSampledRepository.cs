@@ -1,4 +1,6 @@
 using HogwartsHouses.Models;
+using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 
 namespace HogwartsHouses.DAL
@@ -15,6 +17,13 @@ namespace HogwartsHouses.DAL
         public HashSet<Room> GetAllRooms()
         {
             return _roomSampler.Rooms;
+        }
+
+        public void AddRoom(Room room)
+        {
+            _roomSampler.Rooms.Add(room);
+            Console.WriteLine("White on blue.");
+
         }
     }
 }

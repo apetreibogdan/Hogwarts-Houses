@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "1zHyidG4mhUU2NRtNfImF7Z47U1Do/f247hWqFBFkKgoJ7crIO5Zml4iczIODACDyAdXIeUezs5a/WIr/KPxOA==",
+  "dgSpecHash": "MXObzzlzziFwLCimCpyT7GYl8TpRRS4tv85sCrcRVtTZfCgmeWqi/fxM2AOl570tD/l+D4lRfcwDVdCdQOqQdw==",
   "success": true,
   "projectFilePath": "D:\\hogwarts-houses-1-csharp-apetreibogdan\\src\\HogwartsHouses.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\apetr\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.22\\microsoft.aspnetcore.jsonpatch.3.1.22.nupkg.sha512",
+    "C:\\Users\\apetr\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.22\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.22.nupkg.sha512",
     "C:\\Users\\apetr\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.13\\microsoft.aspnetcore.mvc.razor.extensions.3.1.13.nupkg.sha512",
     "C:\\Users\\apetr\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\3.1.13\\microsoft.aspnetcore.mvc.razor.runtimecompilation.3.1.13.nupkg.sha512",
     "C:\\Users\\apetr\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.13\\microsoft.aspnetcore.razor.language.3.1.13.nupkg.sha512",
@@ -32,6 +34,8 @@
     "C:\\Users\\apetr\\.nuget\\packages\\microsoft.extensions.options\\3.1.22\\microsoft.extensions.options.3.1.22.nupkg.sha512",
     "C:\\Users\\apetr\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.22\\microsoft.extensions.primitives.3.1.22.nupkg.sha512",
     "C:\\Users\\apetr\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+    "C:\\Users\\apetr\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\apetr\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\apetr\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
     "C:\\Users\\apetr\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\apetr\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",

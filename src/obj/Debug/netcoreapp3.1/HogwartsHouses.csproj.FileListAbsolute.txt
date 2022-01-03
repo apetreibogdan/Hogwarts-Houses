@@ -352,3 +352,7 @@ D:\hogwarts-houses-1-csharp-apetreibogdan\src\bin\Debug\netcoreapp3.1\Microsoft.
 D:\hogwarts-houses-1-csharp-apetreibogdan\src\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 D:\hogwarts-houses-1-csharp-apetreibogdan\src\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 D:\hogwarts-houses-1-csharp-apetreibogdan\src\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\hogwarts-houses-1-csharp-apetreibogdan\src\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\hogwarts-houses-1-csharp-apetreibogdan\src\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\hogwarts-houses-1-csharp-apetreibogdan\src\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\hogwarts-houses-1-csharp-apetreibogdan\src\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll

@@ -16,9 +16,9 @@ namespace HogwartsHouses.DAL
 
         public void Initialize()
         {
-            Student bobo1 = new Student(1, "bobo11", PetType.Cat);
-            Student bobo2 = new Student(2, "bobo22", PetType.Owl);
-            Student bobo3 = new Student(3, "bobo33", PetType.Rat);
+            Student bobo1 = new Student( "bobo11", PetType.Cat);
+            Student bobo2 = new Student( "bobo22", PetType.Owl);
+            Student bobo3 = new Student( "bobo33", PetType.Rat);
 
 
             Students.Add(bobo1);

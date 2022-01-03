@@ -18,5 +18,6 @@ namespace HogwartsHouses.Models
             Students = studets;
         }
 
+
     }
 }

@@ -12,5 +12,10 @@ namespace HogwartsHouses.DAL
             _repository = repository;
         }
         public HashSet<Room> GetAllRooms()=>_repository.GetAllRooms();
+
+        public void AddRoom(Room room)
+        {
+            _repository.AddRoom(room);
+        }
     }
 }
