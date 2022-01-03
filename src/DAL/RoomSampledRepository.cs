@@ -22,8 +22,18 @@ namespace HogwartsHouses.DAL
         public void AddRoom(Room room)
         {
             _roomSampler.Rooms.Add(room);
-            Console.WriteLine("White on blue.");
+        }
 
+        public Room GetRoom(int roomId)
+        {
+            foreach (var room in _roomSampler.Rooms)
+            {
+                if (room.ID == roomId)
+                {       
+                    return room;
+                }
+            }
+            return null;
         }
     }
 }
