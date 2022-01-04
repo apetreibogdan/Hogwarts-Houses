@@ -8,5 +8,6 @@ namespace HogwartsHouses.DAL
         public HashSet<Room> GetAllRooms();
         public void AddRoom(T room);
         public Room GetRoom(int id);
+        void DeleteRoom(int roomId);
     }
 }

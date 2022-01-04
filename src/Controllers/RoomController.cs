@@ -38,5 +38,11 @@ namespace HogwartsHouses.Controllers
 
             return result;
         }
+
+        [HttpDelete("{id}")]
+        public void DeleteRoom(int id)
+        {
+            _roomService.DeleteRoom(id);
+        }
     }
 }

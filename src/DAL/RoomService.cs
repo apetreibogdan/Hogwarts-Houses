@@ -22,5 +22,10 @@ namespace HogwartsHouses.DAL
         {
             return _repository.GetRoom(roomId);
         }
+
+        public void DeleteRoom(int roomId)
+        {
+            _repository.DeleteRoom(roomId);
+        }
     }
 }
