@@ -9,5 +9,6 @@ namespace HogwartsHouses.DAL
         public void AddRoom(Room room);
         public Room GetRoom(int roomId);
         void DeleteRoom(int id);
+        void UpdateRoom(int id, Room room);
     }
 }
