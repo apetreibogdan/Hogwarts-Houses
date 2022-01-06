@@ -31,6 +31,15 @@ namespace HogwartsHouses.DAL
         {
             _repository.UpdateRoom(roomId, room);
         }
-        
+
+        public void AddStudent(Student student)
+        {
+            _repository.AddStudent(student);
+        }
+
+        public List<Student> GetAllStudents()
+        {
+            return _repository.GetAllStudents();
+        }
     }
 }

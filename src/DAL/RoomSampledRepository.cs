@@ -47,5 +47,15 @@ namespace HogwartsHouses.DAL
             _roomSampler.Rooms.Add(room);
         }
 
+        public void AddStudent(Student student)
+        {
+            _roomSampler.Students.Add(student);
+        }
+
+        public List<Student> GetAllStudents()
+        {
+            return _roomSampler.Students;
+        }
+
     }
 }

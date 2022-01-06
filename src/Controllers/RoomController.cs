@@ -51,5 +51,21 @@ namespace HogwartsHouses.Controllers
 
             _roomService.UpdateRoom(id, room );
         }
+
+        [HttpPost("add-student")]
+        public void AddStudent([FromBody] Student student)
+        {
+            _roomService.AddStudent(student);
+        }
+
+        [HttpGet("students")]
+        public List<Student> GetStudents()
+        {
+            return _roomService.GetAllStudents();
+        }
+
+
+
+
     }
 }

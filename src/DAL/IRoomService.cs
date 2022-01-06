@@ -10,5 +10,7 @@ namespace HogwartsHouses.DAL
         public Room GetRoom(int roomId);
         void DeleteRoom(int id);
         void UpdateRoom(int id, Room room);
+        void AddStudent(Student student);
+        List<Student> GetAllStudents();
     }
 }
