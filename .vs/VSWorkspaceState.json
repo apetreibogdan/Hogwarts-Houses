@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\src\\DAL"
   ],
-  "SelectedNode": "\\HogwartsHouses.sln",
+  "SelectedNode": "\\src\\DAL\\RoomSampledRepository.cs",
   "PreviewInSolutionExplorer": false
 }

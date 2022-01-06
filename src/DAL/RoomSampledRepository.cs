@@ -2,6 +2,7 @@ using HogwartsHouses.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace HogwartsHouses.DAL
 {
@@ -74,6 +75,14 @@ namespace HogwartsHouses.DAL
                 }
             }
             return null;
+        }
+
+        public IEnumerable <Room> GetAvaibleRooms()
+        {
+        
+
+            return _roomSampler.Rooms.Where(x => x.Available == true);
+
         }
 
     }

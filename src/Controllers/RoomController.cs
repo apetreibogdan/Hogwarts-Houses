@@ -71,6 +71,12 @@ namespace HogwartsHouses.Controllers
             _roomService.AsigneStudentToRoom(id, name);
         }
 
+        [HttpGet("available")]
+        public IEnumerable<Room> GetAvaibleRooms()
+        {
+            return _roomService.GetAvaibleRooms();
+        }
+
 
 
 

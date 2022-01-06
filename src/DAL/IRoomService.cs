@@ -13,5 +13,6 @@ namespace HogwartsHouses.DAL
         void AddStudent(Student student);
         List<Student> GetAllStudents();
         void AsigneStudentToRoom(int id, string name);
+        IEnumerable<Room> GetAvaibleRooms();
     }
 }
