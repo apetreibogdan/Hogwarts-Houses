@@ -41,5 +41,10 @@ namespace HogwartsHouses.DAL
         {
             return _repository.GetAllStudents();
         }
+
+        public void AsigneStudentToRoom(int id, string name)
+        {
+            _repository.AsigneStudentToRoom(id, name);
+        }
     }
 }

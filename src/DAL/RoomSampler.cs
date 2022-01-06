@@ -20,13 +20,15 @@ namespace HogwartsHouses.DAL
             Student bobo2 = new Student( "bobo22", PetType.Owl);
             Student bobo3 = new Student( "bobo33", PetType.Rat);
 
-
             Students.Add(bobo1);
-            Students.Add(bobo2);
+            Students.Add(bobo2);    
             Students.Add(bobo3);
 
-            Room room1 = new Room(1,true,Students); 
-            Room room2 = new Room(2,true,Students);
+            List<Student> room1Students = new List<Student>(){ bobo1, bobo2};
+            List<Student> room2Students = new List<Student>() { bobo2, bobo3 };
+
+            Room room1 = new Room(1, true, room1Students);
+            Room room2 = new Room(2,true, room2Students);
           //  Room room2 = new Room(1,true,Students); 
           //  Room room3 = new Room(1,true);
             Rooms.Add(room1);

@@ -64,6 +64,14 @@ namespace HogwartsHouses.Controllers
             return _roomService.GetAllStudents();
         }
 
+        [HttpPut("{id}/{name}")]
+
+        public void AsigneStudentToRoom(int id, string name)
+        {
+            _roomService.AsigneStudentToRoom(id, name);
+        }
+
+
 
 
 

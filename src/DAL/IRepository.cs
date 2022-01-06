@@ -12,5 +12,6 @@ namespace HogwartsHouses.DAL
         void UpdateRoom(int roomId, Room room);
         void AddStudent(Student student);
         public List<Student> GetAllStudents();
+        void AsigneStudentToRoom(int id, string name);
     }
 }

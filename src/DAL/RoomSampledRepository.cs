@@ -57,5 +57,24 @@ namespace HogwartsHouses.DAL
             return _roomSampler.Students;
         }
 
+        public void AsigneStudentToRoom(int id, string name)
+        {
+            var room = GetRoom(id);
+            var student = GetStudentByName(name);
+            room.Students.Add(student);
+        }
+
+        public Student GetStudentByName(string name)
+        {
+            foreach(Student student in _roomSampler.Students)
+            {
+                if (student.Name == name)
+                {
+                    return student;
+                }
+            }
+            return null;
+        }
+
     }
 }
