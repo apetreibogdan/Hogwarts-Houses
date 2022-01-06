@@ -77,9 +77,11 @@ namespace HogwartsHouses.Controllers
             return _roomService.GetAvaibleRooms();
         }
 
+        [HttpGet("rat-owners")]
+        public IEnumerable<Room> GetAvaibleRoomsForRatOwner()
+        {
+            return _roomService.GetAvaibleRoomsForRatOwner();
 
-
-
-
+        }
+        }
     }
-}

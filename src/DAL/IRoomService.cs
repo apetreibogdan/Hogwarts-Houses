@@ -14,5 +14,6 @@ namespace HogwartsHouses.DAL
         List<Student> GetAllStudents();
         void AsigneStudentToRoom(int id, string name);
         IEnumerable<Room> GetAvaibleRooms();
+        IEnumerable<Room> GetAvaibleRoomsForRatOwner();
     }
 }

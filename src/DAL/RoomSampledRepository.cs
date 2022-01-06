@@ -1,4 +1,5 @@
 using HogwartsHouses.Models;
+using HogwartsHouses.Models.Types;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -81,9 +82,41 @@ namespace HogwartsHouses.DAL
         {
         
 
-            return _roomSampler.Rooms.Where(x => x.Available == true);
+            return _roomSampler.Rooms.Where(room => room.Available == true);
 
         }
+
+
+        public IEnumerable<Room> GetAvaibleRoomsForRatOwner()
+        {
+            List<Room> roomsWithoutCatsOrOwls = new List<Room>();
+            foreach (var room in _roomSampler.Rooms)
+            {
+                bool isRoomWithoutCatsOrOwls = true;
+                foreach (var student in room.Students)
+                {
+                    if (student.Pet == PetType.Owl || student.Pet == PetType.Cat)
+                    {
+                        isRoomWithoutCatsOrOwls = false;
+                    }
+                }
+                if (isRoomWithoutCatsOrOwls)
+                {
+                    roomsWithoutCatsOrOwls.Add(room);
+                }
+            }
+            return roomsWithoutCatsOrOwls;
+        }
+            
+                                           
+
+  
+
+     //       return _roomSampler.Rooms.Where(room => room.Students.Where(student => (student.Pet == Models.Types.PetType.Cat).
+                                                              //    Where(student.Pet == Models.Types.PetType.Owl))
+    
+
+       
 
     }
 }

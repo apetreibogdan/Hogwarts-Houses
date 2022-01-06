@@ -49,6 +49,10 @@ namespace HogwartsHouses.DAL
 
         public IEnumerable<Room> GetAvaibleRooms() {
             return _repository.GetAvaibleRooms(); 
+        }  
+        
+        public IEnumerable<Room> GetAvaibleRoomsForRatOwner() {
+            return _repository.GetAvaibleRoomsForRatOwner(); 
         }
         
     }

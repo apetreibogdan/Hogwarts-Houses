@@ -25,7 +25,7 @@ namespace HogwartsHouses.DAL
             Students.Add(bobo3);
 
             List<Student> room1Students = new List<Student>(){ bobo1, bobo2};
-            List<Student> room2Students = new List<Student>() { bobo2, bobo3 };
+            List<Student> room2Students = new List<Student>() {  bobo3 };
 
             Room room1 = new Room(1, true, room1Students);
             Room room2 = new Room(2,true, room2Students);
